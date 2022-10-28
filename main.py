@@ -50,7 +50,7 @@ try:
         # soundfile expects an int, sounddevice provides a float:
         args.samplerate = int(device_info["default_samplerate"])
 
-    model = Model(lang="en-us")
+    model = Model(model_path='model')
 
     if args.filename:
         dump_fn = open(args.filename, "wb")
