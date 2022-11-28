@@ -1,4 +1,4 @@
-# maria
+# IA
  Um Assistente Virtual feito Em Python.
 
  Foco:
